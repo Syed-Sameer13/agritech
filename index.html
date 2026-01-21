@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AgriTech</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- TOP NAVBAR -->
+<div class="topbar">
+  <div class="top-left">
+    <img src="agri.png" class="logo">
+    <span class="brand">AgriTech</span>
+  </div>
+
+  <div class="top-menu">
+    <a href="#" onclick="showSection('homeSection')">🏠 Home</a>
+    <a href="#" onclick="showSection('aboutSection')">ℹ️ About</a>
+    <a href="#" onclick="showSection('contactSection')">📞 Contact</a>
+    <a href="#" class="highlight">Donate</a>
+  </div>
+</div>
+
+<!-- STATS BAR -->
+<div class="stats-bar">
+  <div>🌍 90M+ Farmers Reached</div>
+  <div>🎓 500+ Partners</div>
+  <div>📽️ 6,000+ Agri Videos</div>
+  <div>🗣️ 20+ Languages</div>
+</div>
+
+<!-- MAIN LAYOUT -->
+<div class="layout">
+
+  <!-- LEFT SIDEBAR -->
+  <div class="sidebar">
+    <h4>Dashboard</h4>
+    <a href="#" onclick="showSection('homeSection')">🏠 Home</a>
+    <a href="farmer.html">👨‍🌾 Farmer</a>
+    <a href="restaurant.html">🍽 Restaurant</a>
+    <a href="#">📦 Orders</a>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="content">
+
+    <!-- DEFAULT DASHBOARD VIEW -->
+    <div id="dashboardIntro">
+      <h1>Why AgriTech?</h1>
+      <p>
+        AgriTech connects farmers directly with restaurants,
+        eliminates middlemen, ensures fair prices, and reduces food wastage.
+      </p>
+    </div>
+
+    <!-- HOME SECTION (HIDDEN INITIALLY) -->
+    <div id="homeSection" class="section">
+      <h1>AgriTech Dashboard</h1>
+
+      <div class="stats-cards">
+        <div class="stat-box">
+          <h2 id="itemCount">10</h2>
+          <p>Items in Market</p>
+        </div>
+
+        <div class="stat-box">
+          <h2 id="totalQty">20</h2>
+          <p>Total Quantity (kg)</p>
+        </div>
+
+        <div class="stat-box">
+          <h2 id="orderCount">20</h2>
+          <p>Total Orders</p>
+        </div>
+      </div>
+
+      <h3>📦 Market Preview</h3>
+      <div id="marketPreview" class="items"></div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div id="aboutSection" class="section">
+      <h1>About AgriTech</h1>
+      <p>
+        AgriTech is a digital agriculture marketplace
+        focused on transparency, farmer empowerment,
+        and sustainable food systems.
+        Our platform empowers farmers by giving them direct access 
+        to market real time price visibility and transparent demand 
+        information at the same time restaurants benefit from fresh produce.
+        food system.
+      </p>
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <div id="contactSection" class="section">
+      <h1>Contact Us</h1>
+      <p><b>Email:</b> support@agritech.com</p>
+      <p><b>Phone:</b> +91 98765 43210</p>
+      <p><b>Address:</b> Hyderabad, India</p>
+    </div>
+
+    <!-- CHATBOT -->
+    <div class="chatbot">
+      <h3>💬 Help Chatbot</h3>
+      <div id="chatBox" class="chat-box">
+        <p class="bot">👋 Hi! Ask about prices, items, or orders.</p>
+      </div>
+
+      <input id="chatInput" placeholder="Type your question...">
+      <button onclick="sendMessage()">Send</button>
+    </div>
+
+  </div>
+
+  <!-- RIGHT PANEL -->
+  <div class="action-panel">
+    <h3>Get Involved</h3>
+    <button>Find Resources</button>
+    <button>Download App</button>
+    <button class="donate">Donate</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

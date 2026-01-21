@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Farmer Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>👨‍🌾 Farmer Dashboard</h2>
+
+<div class="items">
+
+
+  <div class="item-card"
+    onclick="selectVeg('Tomato','Hybrid','images/tomato.png',30)">
+    <img src="tomato.png">
+    <p>Tomato</p>
+  </div>
+
+  <div class="item-card"
+    onclick="selectVeg('Onion','Red','images/onion.png',25)">
+    <img src="onion.png">
+    <p>Onion</p>
+  </div>
+
+  <div class="item-card"
+    onclick="selectVeg('Potato','Fresh','images/potato.png',20)">
+    <img src="potato.png">
+    <p>Potato</p>
+  </div>
+
+  <div class="item-card"
+    onclick="selectVeg('Carrot','Organic','images/carrot.png',40)">
+    <img src="carrot.png">
+    <p>Carrot</p>
+  </div>
+</div>
+
+<div class="form-card">
+  <h3 id="vegName">Select vegetable</h3>
+  <p id="vegType"></p>
+  <p id="suggestedPrice"></p>
+
+  <input id="price" placeholder="Price ₹/kg">
+  <input id="quantity" placeholder="Quantity (kg)">
+  <input id="deliveryDate" type="date">
+
+  <button onclick="addToMarket()">Add to Market</button>
+</div>
+
+<a href="index.html">⬅ Back</a>
+
+<script src="script.js"></script>
+</body>
+</html>

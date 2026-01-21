@@ -1,0 +1,271 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #f1f8e9;
+}
+
+.home-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.home-card, .item-card {
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  width: 160px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.home-card img, .item-card img {
+  width: 80px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.form-card {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  margin: 20px auto;
+  border-radius: 15px;
+}
+
+input, button {
+  width: 90%;
+  margin: 5px;
+  padding: 8px;
+}
+
+#chatbot {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 260px;
+  background: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+/* ===== DASHBOARD HOME PAGE ===== */
+
+.topbar {
+  background: #2e7d32;
+  padding: 12px 20px;
+  color: white;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.dashboard {
+  padding: 40px 20px;
+}
+
+.dashboard h3 {
+  color: #1b5e20;
+  margin-bottom: 5px;
+}
+
+.dashboard-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.dash-card {
+  background: white;
+  width: 260px;
+  padding: 25px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: transform 0.3s;
+}
+
+.dash-card:hover {
+  transform: translateY(-8px);
+}
+
+.dash-card img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.dash-card h4 {
+  color: #2e7d32;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+}
+
+/* TOP BAR */
+.topbar {
+  background:#2e7d32;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.top-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 35px;
+}
+
+.brand {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.top-menu a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.top-menu .highlight {
+  color: #8bc34a;
+}
+
+/* STATS BAR */
+.stats-bar {
+  background: #eee;
+  display: flex;
+  justify-content: space-around;
+  padding: 12px;
+  font-size: 14px;
+}
+
+/* MAIN LAYOUT */
+.layout {
+  display: flex;
+  padding: 20px;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 200px;
+}
+
+.sidebar h4 {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  display: block;
+  padding: 8px;
+  color: #8bc34a;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background: #8bc34a;
+  color: white;
+}
+
+/* CONTENT */
+.content {
+  flex: 1;
+  background: white;
+  padding: 25px;
+  margin: 0 20px;
+}
+
+.content h1 {
+  margin-top: 0;
+}
+
+/* ACTION PANEL */
+.action-panel {
+  width: 220px;
+  background: #8bc34a;
+  padding: 20px;
+  color: white;
+}
+
+.action-panel button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.action-panel .donate {
+  background: #33691e;
+  color: white;
+}
+.stats-cards {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.stat-box {
+  background: #f1f8e9;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.stat-box h2 {
+  margin: 0;
+  color: #33691e;
+}
+.chatbot {
+  margin-top: 20px;
+}
+
+.chat-box {
+  background: #f1f8e9;
+  height: 150px;
+  padding: 10px;
+  overflow-y: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.chat-box p {
+  margin: 5px 0;
+}
+
+.bot {
+  color: #2e7d32;
+}
+
+.user {
+  text-align: right;
+  color: #333;
+}
+
+.section.active {
+  display: block;
+}
+
